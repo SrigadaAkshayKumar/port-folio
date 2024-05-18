@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 .header {
-  height: 160px;
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@ body {
 }
 
 .nav {
-  height: 85px;
+  height: 90px;
   width: 90%;
   background-color: rgb(153, 140, 140);
   backdrop-filter: blur(60px) saturation(20%);
@@ -40,23 +40,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  padding-left: 30px;
-  padding-top: 15px;
+  font-size: 2.3rem;
+  padding-left: 40px;
+  padding-top: 12px;
 }
 
 .menu1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.1rem;
-  padding-top: 18px;
+  font-size: 1.6rem;
+  padding-top: 15px;
 }
 .home a {
   color: rgb(30, 28, 28);
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 2rem;
   padding-right: 20px;
 }
 
@@ -266,7 +266,7 @@ body {
 }
 .skill-heading {
   color: rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 2.4rem;
   text-decoration: underline;
   text-align: center;
   display: flex;
@@ -405,37 +405,40 @@ body {
 }
 .project {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 30px 0;
+  margin: 30px 30px;
+  padding: 20px 40px;
   border: 2px solid rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
-  height: 600px;
-  width: 550px;
+  height: 100%;
+  width: 100%;
 }
 .project:hover {
   box-shadow: 0 0 40px 10px rgb(0, 0, 0);
 }
 .project img {
-  height: 40%;
-  width: 85%;
+  height: 80%;
+  width: 80%;
 }
 .project h2 {
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 85%;
   padding: 20px 0;
 }
 .project h3 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 90%;
 }
 .project p {
-  width: 85%;
   padding: 20px 0;
-  font-size: 1.2rem;
+  font-size: 2rem;
+}
+.box1 {
+  width: 100%;
+}
+.box2 {
+  width: 90%;
 }
 
 /* Responsive styles */
@@ -480,11 +483,14 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .header {
+    height: 150px;
+  }
   .nav {
-    height: 75px;
+    height: 80px;
   }
   .head {
-    padding-top: 5px;
+    padding-top: 8px;
     padding-left: 20px;
   }
   .hamburger {
@@ -498,37 +504,61 @@ body {
     width: 90%;
     height: 100%;
   }
+  .parap {
+    font-size: 1.5rem;
+  }
+  .parap span {
+    font-size: 2.2rem;
+  }
   .About {
     padding: 0 20px;
   }
   .education {
     padding: 50px 20px;
   }
+  .education h3 {
+    font-size: 1.5rem;
+  }
+  .education p {
+    font-size: 1.5rem;
+  }
+  .education h2 {
+    font-size: 2rem;
+  }
+  .education a {
+    font-size: 1.5rem;
+  }
   .edu {
     width: 90%;
   }
   .lang-hobbies {
+    font-size: 1.4rem;
     padding: 0 20px;
   }
   .hobbies {
     width: 90%;
   }
+  .Details {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
   .Add-cont {
     padding: 0 20px;
   }
   .Address {
-    width: 75%;
-  }
-  .tech-skills {
-    width: 80%;
+    width: 95%;
   }
   .soft-skills {
-    width: 80%;
+    width: 90%;
+  }
+  .certificate {
+    margin-top: 30px;
   }
   .certifi {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 0;
   }
   .certifi-btn {
     margin: 20px 0;
@@ -538,9 +568,20 @@ body {
     padding: 0 20px;
   }
   .project1 {
-    padding: 0 30px;
+    padding: 0 20px;
+  }
+  .project h2 {
+    font-size: 1.8rem;
+  }
+  .project h3 {
+    font-size: 2rem;
+  }
+  .project p {
+    width: 90%;
+    font-size: 1.5rem;
   }
   .project {
+    height: 100%;
     box-shadow: 0 0 50px;
   }
 }
