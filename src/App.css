@@ -82,7 +82,6 @@ body {
 .About {
   height: 100%;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap-reverse;
   align-items: center;
   justify-content: space-evenly;
@@ -218,7 +217,7 @@ body {
   padding: 0 40px;
 }
 .lang-hobbies p {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .Details {
   color: rgb(0, 0, 0);
@@ -243,10 +242,10 @@ body {
   width: 50%;
 }
 .Address p {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .contact p {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .icon {
   display: flex;
@@ -408,7 +407,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 30px 30px;
-  padding: 20px 40px;
+  padding: 30px;
   border: 2px solid rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   height: 100%;
@@ -443,6 +442,18 @@ body {
 
 /* Responsive styles */
 @media (max-width: 1000px) {
+  .About {
+    flex-direction: column-reverse;
+  }
+  .para {
+    width: 95%;
+  }
+  .lang-hobbies {
+    padding: 0 30px;
+  }
+  .Add-cont {
+    padding: 0;
+  }
   .menu1 {
     display: none;
     flex-direction: column;
@@ -481,8 +492,17 @@ body {
     font-size: 2rem;
     padding-right: 20px;
   }
+  .project {
+    flex-direction: column;
+  }
+  .project img {
+    width: 90%;
+  }
+  .box1 {
+    width: 90%;
+  }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .header {
     height: 150px;
   }
@@ -574,6 +594,7 @@ body {
     font-size: 1.8rem;
   }
   .project h3 {
+    width: 95%;
     font-size: 2rem;
   }
   .project p {
@@ -582,6 +603,14 @@ body {
   }
   .project {
     height: 100%;
+    padding: 5px;
+    margin: 20px 0;
     box-shadow: 0 0 50px;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
   }
 }
