@@ -624,20 +624,23 @@ body {
   .parap {
     font-size: 1.3rem;
   }
-  .language h1 {
-    font-size: 2.6rem;
+  .language {
+    width: 90%;
   }
-  .hobbies {
-    width: 95%;
+  .language h1 {
+    font-size: 2.2rem;
+  }
+  .hobbies h1 {
+    font-size: 2.4rem;
   }
   .Address h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .Address p {
     font-size: 1.7rem;
   }
   .contact h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .contact p {
     font-size: 1.5rem;
@@ -652,20 +655,26 @@ body {
   .skills h1 {
     font-size: 2.8rem;
   }
+  .tech-skills h2 {
+    font-size: 2.2rem;
+  }
   .soft-skills {
     width: 95%;
   }
+  .certificate {
+    font-size: 2.5rem;
+  }
   .experience {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .experience1 {
     margin-top: 20px;
   }
   .experience1 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .experience1 p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .experience1 a {
     font-size: 1.8rem;
