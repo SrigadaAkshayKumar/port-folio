@@ -619,7 +619,7 @@ body {
     font-size: 2rem;
   }
   .para {
-    width: 95%;
+    width: 98%;
   }
   .parap {
     font-size: 1.3rem;
@@ -628,29 +628,36 @@ body {
     width: 90%;
   }
   .language h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  .lang-hobbies p {
+    font-size: 1.5rem;
   }
   .hobbies h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+  }
+  .Details {
+    font-size: 1.5rem;
   }
   .Address h1 {
     font-size: 2.5rem;
   }
   .Address p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .contact h1 {
     font-size: 2.5rem;
   }
   .contact p {
-    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
   .icon {
     margin-right: 30px;
     padding: 30px;
   }
   .skill-heading {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .skills h1 {
     font-size: 2.8rem;
@@ -678,5 +685,11 @@ body {
   }
   .experience1 a {
     font-size: 1.8rem;
+  }
+  .projects {
+    font-size: 2rem;
+  }
+  .project p {
+    width: 95%;
   }
 }
