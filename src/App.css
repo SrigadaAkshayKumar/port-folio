@@ -614,3 +614,60 @@ body {
     width: 98%;
   }
 }
+@media (max-width: 420px) {
+  .head {
+    font-size: 2rem;
+  }
+  .para {
+    width: 95%;
+  }
+  .parap {
+    font-size: 1.3rem;
+  }
+  .language h1 {
+    font-size: 2.6rem;
+  }
+  .hobbies {
+    width: 95%;
+  }
+  .Address h1 {
+    font-size: 3rem;
+  }
+  .Address p {
+    font-size: 1.7rem;
+  }
+  .contact h1 {
+    font-size: 3rem;
+  }
+  .contact p {
+    font-size: 1.5rem;
+  }
+  .icon {
+    margin-right: 30px;
+    padding: 30px;
+  }
+  .skill-heading {
+    font-size: 2rem;
+  }
+  .skills h1 {
+    font-size: 2.8rem;
+  }
+  .soft-skills {
+    width: 95%;
+  }
+  .experience {
+    font-size: 1.8rem;
+  }
+  .experience1 {
+    margin-top: 20px;
+  }
+  .experience1 h1 {
+    font-size: 3rem;
+  }
+  .experience1 p {
+    font-size: 1.8rem;
+  }
+  .experience1 a {
+    font-size: 1.8rem;
+  }
+}
