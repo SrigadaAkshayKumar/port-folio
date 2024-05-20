@@ -123,18 +123,6 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   z-index: 0;
 }
-.photo {
-  animation-name: photo;
-  animation-duration: 1s;
-}
-@keyframes photo {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
-}
 .photo img {
   height: 320px;
   width: 300px;
