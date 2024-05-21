@@ -12,6 +12,7 @@ import {
   faLightbulb,
   faFileExport,
   faBars,
+  faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
           <nav className="nav">
             <div className="navbar">
               <div className="head">
-                <h1>Portfolio</h1>
+                <FontAwesomeIcon icon={faGraduationCap} />
               </div>
               <div className={`menu1 ${menuOpen ? "open" : ""}`}>
                 <div className="home" onClick={handleLinkClick}>
