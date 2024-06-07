@@ -691,3 +691,45 @@ body {
     width: 95%;
   }
 }
+@media (max-width: 360px) {
+  .About {
+    padding: 0 10px;
+  }
+  .photo img {
+    height: 300px;
+    width: 280px;
+  }
+  .para {
+    width: 100%;
+  }
+  .parap {
+    font-size: 1.2rem;
+  }
+  .parap span {
+    font-size: 2rem;
+  }
+  .education {
+    padding: 50px 10px;
+  }
+  .skills h1 {
+    font-size: 2.4rem;
+  }
+  .tech-skills h2 {
+    font-size: 2rem;
+  }
+  .certificate {
+    font-size: 2.3rem;
+  }
+  .certifi a {
+    font-size: 1.2rem;
+  }
+  .project h2 {
+    font-size: 1.5rem;
+  }
+  .project p {
+    font-size: 1.4rem;
+  }
+  .project h3 {
+    font-size: 1.8rem;
+  }
+}

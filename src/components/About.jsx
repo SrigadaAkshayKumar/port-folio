@@ -56,7 +56,7 @@ function About() {
             500049
           </p>
           <p>Year : I am currently in my third year of studying engineering</p>
-          <p>CGPA : 9.5</p>
+          <p>CGPA : 8.7</p>
           <h2>certificate</h2>
           <a href="#">2nd year memo</a>
           <h3>Intermediate (12th Grade)</h3>
