@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faGithub,
-  faInstagram,
+  faKaggle,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faLocationDot,
@@ -34,11 +34,11 @@ function About() {
             <a href="https://www.linkedin.com/in/akshayak8">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://github.com/Akshayak8">
+            <a href="https://github.com/SrigadaAkshayKumar">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://www.instagram.com/akshay_ak8?igsh=MXVkNzhybHBzZDcxZA== ">
-              <FontAwesomeIcon icon={faInstagram} />
+            <a href="https://www.kaggle.com/akshayak8">
+              <FontAwesomeIcon icon={faKaggle} />
             </a>
           </div>
         </div>
@@ -132,11 +132,11 @@ function About() {
             <a href="https://www.linkedin.com/in/akshayak8">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://github.com/Akshayak8">
+            <a href="https://github.com/SrigadaAkshayKumar">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://www.instagram.com/akshay_ak8?igsh=MXVkNzhybHBzZDcxZA== ">
-              <FontAwesomeIcon icon={faInstagram} />
+            <a href="https://www.kaggle.com/akshayak8">
+              <FontAwesomeIcon icon={faKaggle} />
             </a>
           </div>
         </div>
