@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <Router basename="/portfolio">
+    <Router basename="/port-folio">
       <div className="content">
         <header className="header">
           <nav className="nav">
