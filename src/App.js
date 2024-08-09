@@ -67,6 +67,23 @@ function App() {
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Achievements" element={<Achievements />} />
         </Routes>
+        <div className="bottom-box">
+          <div className="hom">
+            <Link to="/About">About</Link>
+          </div>
+          <div className="hom">
+            <Link to="/Skills">Skills</Link>
+          </div>
+          <div className="hom">
+            <Link to="/Experience">Experience</Link>
+          </div>
+          <div className="hom">
+            <Link to="/Projects">Projects</Link>
+          </div>
+          <div className="hom">
+            <Link to="/Achievements">Achievements</Link>
+          </div>
+        </div>
       </div>
     </Router>
   );

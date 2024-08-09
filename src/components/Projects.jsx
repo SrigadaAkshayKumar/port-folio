@@ -3,6 +3,7 @@ import Food from "./images/Food-order.png";
 import Netflix from "./images/Netflix.png";
 import Rent from "./images/Rent.png";
 import Retail from "./images/RetailX.png";
+import unemployment from "./images/Unemployment.png";
 
 function Projects() {
   return (
@@ -11,6 +12,36 @@ function Projects() {
         <h1>Projects</h1>
       </div>
       <div class="project1">
+        <div class="project">
+          <div className="box1">
+            <h2>
+              <span class="span">
+                Unemployment-Analysis (
+                <a href="https://github.com/SrigadaAkshayKumar/Unemployment-Analysis">
+                  Git-hub
+                </a>
+                )
+              </span>
+              :
+            </h2>
+            <img src={unemployment} alt="images" />
+          </div>
+          <div className="box2">
+            <p>
+              I conducted an Unemployment Analysis project where I utilized data
+              science techniques to analyze trends and key factors affecting
+              unemployment. The project involved data collection, cleaning, and
+              exploratory data analysis (EDA). I developed predictive models to
+              forecast future unemployment rates and visualized the results
+              through interactive charts.
+            </p>
+            <h3>Technologies Used :</h3>
+            <p>
+              pandas, Numpy, Matplotlib, Seaborn, scikit-learn, Jupyter Notebook
+              and Power bi
+            </p>
+          </div>
+        </div>
         <div class="project">
           <div className="box1">
             <h2>
@@ -33,8 +64,11 @@ function Projects() {
               showcases my journey in understanding and applying analytics
               techniques to real-world datasets.
             </p>
-            <h3>Technologies Used :</h3>
-            <p>Jupyter Notebook, Power bi, Data Analysis</p>
+            <h3>Technologies and Tools Used :</h3>
+            <p>
+              pandas, Numpy, Matplotlib, Seaborn, scikit-learn, Jupyter Notebook
+              and Power bi
+            </p>
           </div>
         </div>
         <div class="project">
@@ -58,8 +92,8 @@ function Projects() {
               development journey as I recreate the user interface of the
               popular streaming platform.
             </p>
-            <h3>Technologies Used :</h3>
-            <p>React js, Node js, Html, CSS and JavaScript</p>
+            <h3>Technologies and Tools Used :</h3>
+            <p>React js, Html, CSS, JavaScript, Node js and VS Code</p>
           </div>
         </div>
         <div class="project">
@@ -79,8 +113,10 @@ function Projects() {
               needs. Browse, compare, and choose platform. Simplify your rental
               experience with Rent-Hub.
             </p>
-            <h3>Technologies Used :</h3>
-            <p>React js, Node js, Html, CSS, JavaScript and Bootstrap</p>
+            <h3>Technologies and Tools Used :</h3>
+            <p>
+              React js, Html, CSS, JavaScript, Bootstrap, Node js and VS Code
+            </p>
           </div>
         </div>
         <div class="project">
@@ -104,8 +140,8 @@ function Projects() {
               I implemented responsive design principles to ensure viewing
               across different devices.
             </p>
-            <h3>Technologies Used :</h3>
-            <p>Html, CSS and JavaScript</p>
+            <h3>Technologies and Tools Used :</h3>
+            <p>Html, CSS, JavaScript and VS Code</p>
           </div>
         </div>
       </div>

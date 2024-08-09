@@ -22,8 +22,8 @@ function About() {
             passionate about exploring the world of data science, I'm eager to
             dive into statistical analysis, machine learning, and data
             visualization. With a growing interest in Web Development, I enjoy
-            crafting responsive websites using HTML, CSS, JavaScript, React js
-            and Django for Backend.
+            crafting responsive websites using HTML, CSS, JavaScript, React js,
+            python, Flask and MySQL.
           </p>
         </div>
         <div className="photo">
