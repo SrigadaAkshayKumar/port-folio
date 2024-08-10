@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port-folio/static/css/main.55bea1c5.css",
-    "main.js": "/port-folio/static/js/main.6920d570.js",
+    "main.css": "/port-folio/static/css/main.05539035.css",
+    "main.js": "/port-folio/static/js/main.b3a5f159.js",
     "static/js/453.1407b060.chunk.js": "/port-folio/static/js/453.1407b060.chunk.js",
     "static/media/profile.png": "/port-folio/static/media/profile.533aee6f3b915bd35ffa.png",
     "static/media/Netflix.png": "/port-folio/static/media/Netflix.16908e196146e8e7097c.png",
@@ -11,12 +11,12 @@
     "static/media/RetailX.png": "/port-folio/static/media/RetailX.b5e0b7e0f4bf8fc04713.png",
     "static/media/Unemployment.png": "/port-folio/static/media/Unemployment.23d0ad9855e1c04f51b7.png",
     "index.html": "/port-folio/index.html",
-    "main.55bea1c5.css.map": "/port-folio/static/css/main.55bea1c5.css.map",
-    "main.6920d570.js.map": "/port-folio/static/js/main.6920d570.js.map",
+    "main.05539035.css.map": "/port-folio/static/css/main.05539035.css.map",
+    "main.b3a5f159.js.map": "/port-folio/static/js/main.b3a5f159.js.map",
     "453.1407b060.chunk.js.map": "/port-folio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55bea1c5.css",
-    "static/js/main.6920d570.js"
+    "static/css/main.05539035.css",
+    "static/js/main.b3a5f159.js"
   ]
 }
