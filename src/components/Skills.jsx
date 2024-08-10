@@ -50,7 +50,7 @@ function Skills() {
             <br />
             2.
             <a href="https://www.linkedin.com/learning/certificates/5062cd81216457506283d05f45604f468d18bf53e8100f27cb840ee06268337a?trk=share_certificate">
-              Learning Data Analytics:Foundations by LinkedIn
+              Learning Data Analytics: Foundations by LinkedIn
             </a>
             <br />
             3.

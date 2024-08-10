@@ -601,6 +601,8 @@ body {
   }
   .certifi-btn {
     margin: 20px 0;
+    padding: 0 20px;
+    line-height: 1.2;
   }
   .experience1 {
     margin-top: 40px;
@@ -645,54 +647,82 @@ body {
     width: 98%;
   }
   .parap {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+  .parap span {
+    font-size: 2rem;
+  }
+  .education h1 {
+    font-size: 3rem;
+  }
+  .edu h3 {
+    font-size: 1.2rem;
+  }
+  .edu p {
+    font-size: 1.2rem;
+  }
+  .edu h2 {
+    font-size: 1.5rem;
   }
   .language {
     width: 90%;
   }
   .language h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .lang-hobbies p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .hobbies h1 {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
   }
   .Details {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .Address h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .Address p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .contact h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .contact p {
     font-weight: bold;
     font-size: 1.2rem;
+  }
+  .hom {
+    font-size: 1.5rem;
   }
   .icon {
     margin-right: 30px;
     padding: 30px;
   }
   .skill-heading {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .skills h1 {
-    font-size: 2.8rem;
+    font-size: 2rem;
+  }
+  .tech-skills h3 {
+    font-size: 1.5rem;
   }
   .tech-skills h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  .tech-skills p {
+    font-size: 1.2rem;
   }
   .soft-skills {
     width: 95%;
   }
+  .soft-skills p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
   .certificate {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .experience {
     font-size: 1.6rem;
@@ -728,33 +758,98 @@ body {
     width: 100%;
   }
   .parap {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .parap span {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .education {
     padding: 50px 10px;
   }
+  .education h1 {
+    font-size: 2.5rem;
+  }
+  .edu h3 {
+    font-size: 1.2rem;
+  }
+  .edu p {
+    font-size: 1rem;
+  }
+  .edu h2 {
+    font-size: 1.5rem;
+  }
+  .language h1 {
+    font-size: 1.5rem;
+  }
+  .hobbies h1 {
+    font-size: 1.5rem;
+  }
+  .lang-hobbies p {
+    font-size: 1rem;
+  }
+  .Details {
+    font-size: 1.2rem;
+  }
+  .Address h1 {
+    font-size: 2rem;
+  }
+  .Address p {
+    font-size: 1.2rem;
+  }
+  .contact h1 {
+    font-size: 2rem;
+  }
+  .contact p {
+    font-size: 1.2rem;
+  }
+  .hom {
+    font-size: 1.2rem;
+    padding: 8px 20px;
+  }
   .skills h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
+  }
+  .tech-skills h3 {
+    font-size: 1.5rem;
+  }
+  .tech-skills p {
+    font-size: 1.2rem;
   }
   .tech-skills h2 {
     font-size: 2rem;
   }
+  .soft-skills p {
+    font-size: 1.2rem;
+  }
   .certificate {
-    font-size: 2.3rem;
+    font-size: 2rem;
+  }
+  .certifi {
+    margin: 10px 0;
+    padding: 10px 15px;
   }
   .certifi a {
     font-size: 1.2rem;
+  }
+  .certifi-btn {
+    line-height: 1.5;
+  }
+  .certifi-btn h1 {
+    font-size: 1.2rem;
+  }
+  .projects {
+    font-size: 1.8rem;
   }
   .project h2 {
     font-size: 1.5rem;
   }
   .project p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .project h3 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+  }
+  .box1 {
+    width: 95%;
   }
 }
